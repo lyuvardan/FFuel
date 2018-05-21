@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">ffuel</string>
+    <string name="google_app_key">AIzaSyBzhm929r7HhE7rAt-Qq55xMX9iKLPFfr0</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <!--string name="service_url">http://10.0.13.55:52572/</string-->
+    <string name="service_url">http://10.0.0.9/wmsservice/</string>
+    <string name="dataHub_url">http://10.0.0.9/DATAHUB/</string>
+    <string name="freight_url">http://10.0.0.11/FreightService/api/json/airorder/getairorders</string>
+
+
+    <!--screen 1-->
+
+    <string name="headerText">Войдите или зарегистрируйтесь</string>
+    <string name="secondText">Лорем ипсум Лорем ипсум Лорем ипсум Лорем ипсум Лорем ипсум Лорем ипсум Лорем ипсум Лорем ипсум </string>
+    <string name="enter">Войти</string>
+    <string name="register">Зарегистрироваться</string>
+
+    <!-- screen registration-->
+    <string name="registration">Регистрация</string>
+    <string name="telNoHint">Ваш номер телефона</string>
+    <string name="regPolicy">Нажимая кнопку Вы принимаете условия Пользовательского соглашения и Политики конфиденциальности</string>
+    <string name="regButtonText">Получить пароль по SMS</string>
+    <string name="smsCodeText">Код из SMS</string>
+    <string name="smsReceiveText">Через несколько минут вам придет SMS с кодом подтверждения регистрации</string>
+    <string name="btnSendCodeText">Отправить код</string>
+    <string name="btnSendCodeTextAgain">Отправить код еще раз</string>
+    <string name="smsErrorText">Код введен неправильно</string>
+    <string name="smsResendText">Отправить код повторно можно через</string>
+
+
+
+</resources>

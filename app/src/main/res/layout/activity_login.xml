@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:background="#436ab3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_marginTop="56dp"
+        android:layout_marginLeft="28dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/ic_cast_white"
+            />
+        <TextView
+            android:layout_marginTop="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:fontFamily="sans-serif-condensed"
+            android:textStyle="bold"
+            android:textSize="35sp"
+            android:text="@string/headerText"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:textSize="16sp"
+            android:textColor="#fff"
+            android:fontFamily="sans-serif-condensed"
+            android:text="@string/secondText"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:paddingTop="70dp"
+        android:orientation="vertical"
+        android:layout_marginLeft="28dp"
+        android:layout_marginRight="28dp"
+        android:layout_marginBottom="28dp">
+
+        <TextView
+            android:id="@+id/tvEnter"
+            android:paddingLeft="14dp"
+            android:paddingRight="14dp"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="@string/enter"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:textAllCaps="true"
+            android:textColor="@color/colorPrimary"
+            android:background="#fff"
+            android:fontFamily="sans-serif-condensed"
+            />
+        <TextView
+            android:id="@+id/tvRegister"
+            android:paddingLeft="14dp"
+            android:paddingRight="14dp"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="@string/register"
+            android:textColor="#ffffff"
+            android:textAllCaps="true"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:fontFamily="sans-serif-condensed"
+            />
+    </LinearLayout>
+
+</RelativeLayout>

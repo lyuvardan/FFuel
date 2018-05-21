@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <include
+        layout="@layout/app_bar"
+        android:id="@+id/app_bar">
+    </include>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_margin="28dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="24sp"
+        android:textColor="@color/colorPrimary"
+        android:text="@string/registration"/>
+
+    <android.support.design.widget.TextInputLayout
+
+
+        android:layout_marginTop="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        android:theme="@style/TextLabel"
+        >
+        <EditText
+            android:layout_width="match_parent"
+            android:id="@+id/etPhoneNumber"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:hint="@string/telNoHint"
+            />
+    </android.support.design.widget.TextInputLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="100"
+        android:textColor="#bdc6d3"
+        android:text="@string/regPolicy"/>
+
+    <TextView
+        android:id="@+id/tvGetSMS"
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:background="#bdc6d3"
+        android:textAllCaps="true"
+        android:textColor="#ffffff"
+        android:text="@string/regButtonText"/>
+</LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <include
+        layout="@layout/app_bar"
+        android:id="@+id/app_bar">
+    </include>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_margin="28dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="24sp"
+        android:textColor="@color/colorPrimary"
+        android:text="@string/smsCodeText"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        android:layout_marginTop="100dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:id="@+id/etCode1"
+            android:layout_weight="1"
+            android:theme="@style/TextLabel"
+            android:textSize="40sp"
+            android:textAlignment="center"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:maxLength="1"
+
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:id="@+id/etCode2"
+            android:layout_weight="1"
+            android:theme="@style/TextLabel"
+            android:textSize="40sp"
+            android:textAlignment="center"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:maxLength="1"
+
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:id="@+id/etCode3"
+            android:textSize="40sp"
+            android:textAlignment="center"
+            android:layout_weight="1"
+            android:theme="@style/TextLabel"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:maxLength="1"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:id="@+id/etCode4"
+            android:textSize="40sp"
+            android:layout_weight="1"
+            android:theme="@style/TextLabel"
+            android:textAlignment="center"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:maxLength="1"
+            />
+        <ImageView
+            android:id="@+id/ivResponseIcon"
+            android:visibility="gone"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_cast_white"
+            />
+        <ProgressBar
+            android:id="@+id/pbLoader"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center"
+            android:indeterminateTint="@color/colorPrimary"
+            android:visibility="gone"/>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="100"
+        android:textColor="#bdc6d3"
+        android:text="@string/regPolicy"/>
+
+    <TextView
+        android:id="@+id/tvSendCode"
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:background="#bdc6d3"
+        android:textAllCaps="true"
+        android:textColor="#ffffff"
+        android:text="@string/btnSendCodeText"/>
+</LinearLayout>
+
+</LinearLayout>

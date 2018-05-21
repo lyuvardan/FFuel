@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="5dp">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ececec"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAllCaps="true"
+            android:textColor="#afb1b5"
+            android:textStyle="bold"
+            android:text="AIR WAY BILL"
+            android:layout_marginRight="25dp"
+            android:fontFamily="sans-serif-condensed"/>
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAllCaps="true"
+            android:textColor="#afb1b5"
+            android:textStyle="bold"
+            android:tag="awbNumber"
+            android:fontFamily="sans-serif-condensed"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAllCaps="true"
+            android:textColor="#111"
+            android:textStyle="bold"
+            android:text="PO NUMBER"
+            android:layout_marginRight="25dp"
+            android:fontFamily="sans-serif-condensed"/>
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAllCaps="true"
+            android:textColor="#111"
+            android:textStyle="bold"
+            android:tag="poNumber"
+            android:text="N/A"
+            android:fontFamily="sans-serif-condensed"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAllCaps="true"
+            android:textColor="#111"
+            android:textStyle="bold"
+            android:text="CONSIGNEE"
+            android:layout_marginRight="25dp"
+            android:fontFamily="sans-serif-condensed"/>
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAllCaps="true"
+            android:textColor="#111"
+            android:textStyle="bold"
+            android:tag="consignee"
+            android:text="N/A"
+            android:fontFamily="sans-serif-condensed"/>
+
+    </LinearLayout>
+
+</LinearLayout>

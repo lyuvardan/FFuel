@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:tag="llShipmentDetAWBChargeBlock"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/shipment_detail_block_layout"
+        android:padding="25dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:textColor="#afb1b5"
+                android:text="Charge"
+                android:fontFamily="sans-serif-condensed"
+                android:layout_marginRight="5dp"
+                android:gravity="end"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAllCaps="true"
+                android:textColor="#111"
+                android:textStyle="bold"
+                android:tag="charge"
+                android:fontFamily="sans-serif-condensed"
+                android:layout_marginLeft="5dp"
+                android:gravity="start"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:textColor="#afb1b5"
+                android:text="Unit Price"
+                android:fontFamily="sans-serif-condensed"
+
+                android:layout_marginRight="5dp"
+                android:gravity="end"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAllCaps="true"
+                android:textColor="#111"
+                android:textStyle="bold"
+                android:tag="unitPrice"
+                android:fontFamily="sans-serif-condensed"
+
+                android:layout_marginLeft="5dp"
+                android:gravity="start"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:textColor="#afb1b5"
+                android:text="Quantity"
+                android:fontFamily="sans-serif-condensed"
+
+                android:layout_marginRight="5dp"
+                android:gravity="end"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAllCaps="true"
+                android:textColor="#111"
+                android:textStyle="bold"
+                android:tag="quantity"
+                android:fontFamily="sans-serif-condensed"
+
+                android:layout_marginLeft="5dp"
+                android:gravity="start"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:textColor="#afb1b5"
+                android:text="Ext Price"
+                android:fontFamily="sans-serif-condensed"
+                android:layout_marginRight="5dp"
+                android:gravity="end"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAllCaps="true"
+                android:textColor="#111"
+                android:textStyle="bold"
+                android:tag="extPrice"
+                android:fontFamily="sans-serif-condensed"
+                android:layout_marginLeft="5dp"
+                android:gravity="start"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

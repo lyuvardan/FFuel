@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/groupTwoID"
+        android:checkableBehavior="all">
+        <item
+            android:id="@+id/nav_shipments"
+            android:title="Профиль"
+            />
+        <item
+            android:id="@+id/nav_inventory"
+            android:icon="@android:color/transparent"
+            android:title="Уведомление" />
+        <item
+            android:id="@+id/nav_chat"
+            android:title="Настройки"
+            android:icon="@android:color/transparent"/>
+
+    </group>
+    <group
+        android:id="@+id/groupThreeId"
+        android:checkableBehavior="all">
+
+        <item
+            android:id="@+id/nav_sign_out"
+            android:icon="@android:color/transparent"
+            android:title="Выход" />
+    </group>
+</menu>
