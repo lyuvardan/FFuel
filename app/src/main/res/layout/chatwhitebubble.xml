@@ -22,10 +22,10 @@
             android:layout_height="wrap_content">
 
 
-            <ImageView
+            <!--ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/admin_prof_picture"/>
+                android:src="@drawable/admin_prof_picture"/-->
 
             <TextView
                 android:layout_marginLeft="15dp"
