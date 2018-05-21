@@ -21,7 +21,7 @@ import java.util.List;
  * Created by LyudvigV on 1/24/2018.
  */
 
-public class FlightDetailDialog extends Dialog {
+public class GSDetailDialog extends Dialog {
     private UserInfo _userInfo;
     private Context _context;
     private SimpleDateFormat _tzFormatter;
@@ -49,7 +49,7 @@ public class FlightDetailDialog extends Dialog {
 
     private LinearLayout _awbContainerLayout;
 
-    public FlightDetailDialog(Context context, FlightAwareData data, List<ShipmentData> shData)
+    public GSDetailDialog(Context context, FlightAwareData data, List<ShipmentData> shData)
     {
         super(context);
         _context = context;

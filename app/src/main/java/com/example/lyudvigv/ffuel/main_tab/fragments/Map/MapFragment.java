@@ -327,7 +327,7 @@ public class MapFragment extends Fragment implements OnMapReadyCallback {
 
                 for (Marker m :_markerMapData.keySet()) {
                       if(marker.equals(m)){
-                          FlightDetailDialog dialog = new FlightDetailDialog(getContext(),_markerMapData.get(m),_markerMapShipmentData.get(m));
+                          GSDetailDialog dialog = new GSDetailDialog(getContext(),_markerMapData.get(m),_markerMapShipmentData.get(m));
                           dialog.show();
                       }
                 }
